@@ -17,4 +17,4 @@ COPY ./app ./app
 EXPOSE 8501
 
 # run the application with a set container's entrypoint
-CMD ["streamlit", "run", "app/data_process.py"]
+CMD ["streamlit", "run", "app/data_process_db.py"]
